@@ -22,7 +22,7 @@ public class GooglesearchWebdriver {
     
 	FirefoxProfile profile = new FirefoxProfile();
 	profile.setPreference("network.proxy.type", 1);
-	profile.setPreference("network.proxy.http", "localhosts");
+	profile.setPreference("network.proxy.http", "localhost1");
 	profile.setPreference("network.proxy.http_port", 3128);
 	  
 	driver = new FirefoxDriver(profile);

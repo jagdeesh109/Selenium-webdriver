@@ -22,8 +22,8 @@ public class GooglesearchWebdriver {
     
 	FirefoxProfile profile = new FirefoxProfile();
 	profile.setPreference("network.proxy.type", 1);
-	profile.setPreference("network.proxy.http", "localhost1");
-	profile.setPreference("network.proxy.http_port", 3128);
+	profile.setPreference("network.proxy.http", "localhost");
+	profile.setPreference("network.proxy.http_port", 7055);
 	  
 	driver = new FirefoxDriver(profile);
     baseUrl = "https://www.google.com/";

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="GooglesearchWebdriver" time="14.522" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="GooglesearchWebdriver" time="32.867" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="F:\work\ide\EclipseMarsWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5794742244261016066.tmp"/>
+    <property name="classworlds.conf" value="F:\work\ide\EclipseMarsWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7909983871934516849.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64; C:\Program Files\ApacheTomcat\apache-tomcat-7.0.42\bin;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_45;.;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Java\jre1.8.0_45;C:\wamp\bin\php\php5.4.12;C:\ProgramData\Composer\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.6.0_45\bin;F:\work\spring\play\activator\activator-1.3.2-minimal;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\apache-ant-1.9.6/bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="GooglesearchWebdriver" name="testGooglesearchWebdriver" time="14.522"/>
+  <testcase classname="GooglesearchWebdriver" name="testGooglesearchWebdriver" time="32.867"/>
 </testsuite>

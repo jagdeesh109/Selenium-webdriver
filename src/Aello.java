@@ -1,4 +1,11 @@
-
+// Please Make note of the following point
+// 1) The test suite is genrated using selenium ide 
+// 2) Selenium ide is addon/ide for firfox. This has to installed as firefox addon to create to test suite.
+// 3) The genrated test suite are tested on local win7 box, Here test suite are passed.
+// 4) Test suite are failed when running on the remote server 
+// 5) stack of remote server (ubuntu-14, jenkins, github,java 1.8,mavan-3.3)
+// 6) Test suite are build using jenkins. ehich is getting failed.
+// 7)  
 import static org.junit.Assert.fail;
 
 import java.io.File;

@@ -9,6 +9,7 @@
 import static org.junit.Assert.fail;
 
 import java.io.File;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
@@ -21,6 +22,8 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Aello {
   private WebDriver driver;
@@ -32,7 +35,7 @@ public class Aello {
   public void setUp() throws Exception {
     
 	  
-	  // Setup firefox binary to start in Xvfb        
+	 /* // Setup firefox binary to start in Xvfb        
       String Xport = System.getProperty(
               "lmportal.xvfb.id", ":99");
       final File firefoxPath = new File(System.getProperty(
@@ -46,15 +49,28 @@ public class Aello {
       driver.get("http://google.com/");
 
       // Take snapshot of browser
-     /* File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(srcFile, new File("ffsnapshot.png"));*/
+      File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(srcFile, new File("ffsnapshot.png"));
       driver.quit();  
+*/	  
+	 
 	  
 	  
 	  
-	driver = new FirefoxDriver();
-    baseUrl = "https://www.google.co.in/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  
+	  // Adding the desired capablity 
+	  
+	  
+	  
+	  driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),DesiredCapabilities.firefox()) ;
+			  
+  	 driver.get("http://www.google.com");
+	  
+	  
+	  
+	//driver = new FirefoxDriver();
+    //baseUrl = "https://www.google.co.in/";
+    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test

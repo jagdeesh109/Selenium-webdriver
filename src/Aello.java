@@ -64,7 +64,7 @@ public class Aello {
 	  
 	  driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),DesiredCapabilities.firefox()) ;
 			  
-  	 driver.get("http://www.google.com");
+  	 //driver.get("http://www.google.com");
 	  
 	  
 	  
@@ -75,7 +75,7 @@ public class Aello {
 
   @Test
   public void testAello() throws Exception {
-    driver.get(baseUrl + "/?gfe_rd=cr&ei=3zpEVurHAubI8Aflm4HgBQ&gws_rd=ssl");
+    driver.get("http://www.google.com");
     driver.findElement(By.id("lst-ib")).clear();
     driver.findElement(By.id("lst-ib")).sendKeys("hello");
   }
